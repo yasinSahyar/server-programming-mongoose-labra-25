@@ -1,11 +1,12 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import CustomError from '../classes/CustomError';
 dotenv.config();
 
 const mongoConnect = async () => {
   try {
     if (!process.env.DB_URL) {
-      throw new Error('Database url not found in .env file');
+      throw new CustomError('Database url not found in .env file', 500);
     }
     const connection = await mongoose.connect(process.env.DB_URL);
     console.log('DB connected successfully');
