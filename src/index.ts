@@ -9,6 +9,6 @@ mongoConnect()
       console.log(`Listening: http://localhost:${port}`);
     });
   })
-  .catch(() => {
-    console.log('Server not started!');
+  .catch((error) => {
+    console.error('Connection to db failed: ', (error as Error).message);
   });
