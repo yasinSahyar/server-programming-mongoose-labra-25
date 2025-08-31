@@ -1,3 +1,56 @@
+# 18/20 tests passed.
+![Test Result](image/test01.png)
+![Test Result](image/test02.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The following is just information I created to run the project again later.
+
 # Rest API with typescript + mongo - starter files
 
 This was done according to the request [ilgili dokümantasyonu](https://github.com/ilkkamtk/Palvelinohjelmointi/blob/main/week1/mongoose.md).
